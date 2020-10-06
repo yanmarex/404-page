@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <g>
+  <path d="m45.436 167.85c-0.59835-4.514-9.6302-123.95 29.934-139.51 114.34-27.912 57.046 226.06 41.16 173.19-11.501-31.067-2.4345 4.8139-16.036 7.4836-21.896 3.2617-20.255-31.178-26.727-18.709-8.4783 16.334-15.335 30.229-23.52 8.0181-2.4439-6.6319-4.0251-27.85-4.8109-30.469z" fill="#f9f9f9" stroke="#000" stroke-width="1.965"/>
+  <ellipse cx="76.172" cy="87.664" rx="12.562" ry="24.589" stroke-width="1.265"/>
+  <ellipse cx="119.74" cy="88.466" rx="13.898" ry="21.649" stroke-width="5.365"/>
+ </g>
+</svg>

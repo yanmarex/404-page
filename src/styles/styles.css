@@ -6,8 +6,8 @@
 }
 :root {
   --base-color-font: #fff;
-  --base-background-color: rgb(59, 59, 148);
-  --secundary-font-color: rgb(41, 110, 189);
+  --base-background-color: rgb(32 38 53);
+  --secundary-font-color: #677b92;
   --hover-color: rgb(28, 163, 84);
   --font-size: 1rem;
   --font-family: sans-serif;
@@ -32,16 +32,24 @@ a {
   align-items: center;
 }
 .article {
-  border: 1px solid red;
   width: 650px;
   height: 453px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
 .page-title-container {
-  border: 1px solid red;
+  color: var(--secundary-font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-title {
+  font-size: 11em;
+}
+.page-subtitle {
+  text-align: center;
 }
 .btn {
   width: var(--btn-width);
@@ -54,4 +62,22 @@ a {
 }
 .btn:hover {
   background-color: var(--hover-color);
+}
+.page-ilustration {
+  background: url(/src/img/Ghost.svg) no-repeat center center;
+  position: relative;
+  background-size: contain;
+  background-position-y: 136px;
+  background-position-x: 173px;
+  animation: fly 5s infinite alternate linear;
+}
+@keyframes fly {
+  0% {
+    background-position-y: 136px;
+    background-position-x: 173px;
+  }
+  100% {
+    background-position-y: 80px;
+    background-position-x: 73px;
+  }
 }
