@@ -4,3 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --base-color-font: #fff;
+  --base-background-color: rgb(59, 59, 148);
+  --secundary-font-color: rgb(41, 110, 189);
+  --hover-color: rgb(28, 163, 84);
+
