@@ -9,4 +9,21 @@
   --base-background-color: rgb(59, 59, 148);
   --secundary-font-color: rgb(41, 110, 189);
   --hover-color: rgb(28, 163, 84);
-
+  --font-size: 1rem;
+  --font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--base-color-font);
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  font-size: var(--font-size);
+  background-color: var(--base-background-color);
+  color: var(--base-color-font);
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
