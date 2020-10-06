@@ -11,6 +11,10 @@
   --hover-color: rgb(28, 163, 84);
   --font-size: 1rem;
   --font-family: sans-serif;
+  --btn-width: 190px;
+  --btn-height: 45px;
+  --border-radius: 30px;
+  --transition: background-color 0.3s ease-in;
 }
 a {
   text-decoration: none;
@@ -26,4 +30,28 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.article {
+  border: 1px solid red;
+  width: 650px;
+  height: 453px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page-title-container {
+  border: 1px solid red;
+}
+.btn {
+  width: var(--btn-width);
+  height: var(--btn-height);
+  background-color: var(--secundary-font-color);
+  border-radius: var(--border-radius);
+  text-align: center;
+  line-height: 2.9;
+  transition: var(--transition);
+}
+.btn:hover {
+  background-color: var(--hover-color);
 }
